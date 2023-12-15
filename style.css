@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+h1,h2{
+    color: white;
+    text-align: center;
+    font-family: 'Aoboshi One', serif;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+p{
+    color: #ccc;
+}
+
+label{
+    font-size: 200%;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+#btn{
+    background: rgb(21, 99, 56);
+    color: rgb(114, 11, 11);
+    font-size: bolder;
+    padding: 2.5% 5% 2.5% 5%;
+    
+}
+
+input[value="はい"]{
+    font-size: 125%;
+}
+
+#btn:disabled{
+    background: #ccc;
+}
