@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+h1{
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+
+}
+
+body{
+    text-align: center;
+}
+
+div{
+    /* display: inline-block; こっちでもできる*/
+    margin: auto;
+    background-color: #85eb8e;
+    font-weight: bolder;
+    font-size: 125%;
+    padding: 5%;
+    border-radius: 3rem;
+    border-style: solid;
+    border-color: black;
+    width: 20%;
+    height: 2%;
+}
+
+
