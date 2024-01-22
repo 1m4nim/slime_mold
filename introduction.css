@@ -5,14 +5,21 @@ h1{
     background-color: black;
     color: white;
     border-radius: 3rem;
-
+    text-align: center;
 }
 
 body{
     text-align: center;
 }
 
-div{
+.grid{
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 6%;
+}
+
+header div{
     /* display: inline-block; こっちでもできる*/
     margin: auto;
     background-color: #85eb8e;
@@ -26,4 +33,14 @@ div{
     height: 2%;
 }
 
+article p{
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+}
+
+img{
+    width: 640px;
+    height: 428px;
+}
 
