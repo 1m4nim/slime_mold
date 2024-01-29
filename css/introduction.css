@@ -39,5 +39,20 @@ article p{
     border-radius: 3rem;
 }
 
+/*smartphone*/
+@media(max-width: 600px){
+    #header{
+        font-size: 2.5rem;
+    }
+    header p{
+        font-size: 1rem;
+    }
+    article{
+        flex-direction: column;
+        width: 100%
+    }
 
+}
+
+    
 
