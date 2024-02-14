@@ -40,18 +40,14 @@ article p{
 }
 
 /*smartphone*/
-@media(max-width: 600px){
-    #header{
-        font-size: 2.5rem;
-    }
-    header p{
-        font-size: 1rem;
-    }
-    article{
+@media(max-width: 1000px){
+   header{
         flex-direction: column;
+        align-items: center;
+   }
+   article img{
         width: 100%;
-    }
-
+   }
 }
 
     
